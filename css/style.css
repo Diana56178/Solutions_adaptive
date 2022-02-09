@@ -34,7 +34,6 @@ h1 {
 .header__wrapper {
     z-index: 1;
     width: 750px;
-    height: 136px;
     padding-top: 120px;
     text-align: center;
     display: block;
@@ -51,7 +50,6 @@ h1 {
     cursor: pointer;
 }
 
-
 .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -65,14 +63,12 @@ h1 {
 
 .card {
     width: 360px;
-    height: 512px;
     padding: 12px 30px 30px 30px;
     box-sizing: border-box;
     border: 1px solid #D3D8E4;
 }
 
 .card__text {
-    height: 276px;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -84,12 +80,12 @@ h1 {
 
 .category {
     box-sizing: border-box;
-    height: 36px;
     background-color: #00B6DD;
     position: absolute;
     z-index: 2;
     text-align: center;
     padding-top: 6px;
+    padding-bottom: 6px;
     margin-left: -30px;
 }
 
@@ -128,7 +124,6 @@ h1 {
 .author {
     box-sizing: border-box;
     width: 95px;
-    height: 20px;
     font-size: 13px;
     line-height: 20px;
     margin-top: 20px;
@@ -145,11 +140,13 @@ h1 {
     font-size: 16px;
     line-height: 26px;
     margin-top: 16px;
+    padding-bottom: 30px;
 }
 
 .button {
     width: 160px;
-    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     box-sizing: border-box;
     background-color: #00B6DD;
     border: none;
@@ -161,6 +158,7 @@ h1 {
 .press__button {
     margin-top: auto;
 }
+
 
 @media (min-width: 1200px) {
     .card {
@@ -188,7 +186,6 @@ h1 {
     .card {
         width: calc(100% - 15px);
         margin-bottom: 30px;
-
     }
 }
 
